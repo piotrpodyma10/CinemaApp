@@ -1,9 +1,11 @@
-import React from 'react'
-
-const App = () => {
-    return (
-        <div>It is getting started...</div>
-    )
+import React, { Component } from 'react';
+import Room from './Room';
+export default class App extends Component {
+    render() {
+        return (
+            <div className="m-5">
+                <Room />
+            </div>
+        );
+    }
 }
-
-export default App

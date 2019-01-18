@@ -1,0 +1,47 @@
+.w-100{
+    width: 100%;
+}
+.m-5{
+    margin: 3rem;
+}
+.screen{
+    width: 650px;
+    height: 25px;
+    background: grey;
+    color: black;
+    margin-bottom: 15px;
+    position: relative; right: -160px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.block-center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
+
+.square--free:hover{
+    cursor: pointer;
+}
+
+.square--free {
+    background: green;
+}
+
+.square--booked {
+    background: pink;
+}
+
+.square--selected {
+    background: grey;
+}
